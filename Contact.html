@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+          body {margin: 0; padding: 0; box-sizing: border-box;}
+        .intro {
+            justify-content: end;
+            align-items: end;
+            height: 32px;
+            margin-bottom: 88px;
+        }
+        .intro,main,.Step1,.Step2,.Step2p1,.Step3,.Step3p1,footer,.f1 {
+            display: flex;
+        }
+        main {
+            flex-direction: column;
+            align-items: center;
+        }
+        .Step1 {
+            margin-top: -4px;
+            gap: 80px;
+            margin-bottom: 40px;
+        }
+        .Step2 {
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            background:lightcyan;
+        }
+        .Step2p1 {
+            flex-direction: column;
+            background: white;
+            width: 25%;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            padding-left: 8px;
+          
+        }
+        .Step3 {
+            justify-content: center;
+            width: 100%;
+        }
+        .Step3p1 {
+            width: 50%;
+            gap: 8px;
+            margin-left: -24px;
+            border-bottom: 2px solid darkgrey;
+        }
+        a {
+            margin-right: 40px;
+            color: black;
+            text-decoration: none;
+        }
+        button {
+            height: 40px;
+            background: red;
+            color: white;
+            border: none;
+        }
+        #img1 {
+            margin-top: 24px;
+            background: orange;
+            height: 240px;
+            width: 240px;
+            border-radius: 50%;
+        }
+        h6 {
+            font-size: 16px;
+        }
+        h2 {
+            margin-right: 608px;
+        }
+        h5 {
+           color: black;
+           position: absolute;
+           height: 16px;
+           margin-top: 4px;
+           margin-right: 708px; 
+        } 
+        h5:last-of-type{
+            display: inline;
+            font-size: 16px;
+            margin-top: 2px;
+            color: darkgray;
+        }
+        small {
+            height: 16px;
+            position: absolute;
+            margin-left: 728px;
+            margin-top: 2px;
+            color: deepskyblue;
+        }
+        .img2 {
+            width: 152px;
+            height: 160px;
+            border: 1px solid black;
+            margin-bottom: 32px;
+        }
+        #button2 {
+            color: white;
+            background: darkblue;
+            height: 24px;
+            width: 40px;
+            border-radius: 8px;
+        }
+        footer {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 56px;
+            margin-bottom: 42px;
+            gap: 4px;
+        }
+        .f1 {
+            gap: 40px;
+            margin-top: 80px;
+        }
+        .f2 {
+            margin-top: 24px;
+        }
+        i {
+           font-size: 32px; 
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="intro">
+        <a href="./Blog.html"><b>Blog</b></a>
+        <a href="./Works.html"><b>Works</b></a>
+        <a href="./Contact.html"><b>Contact</b></a>
+    </header>
+
+    <main>
+        <div class="Step1">
+        <div>
+        <h1>Hi,l am John,</h1>
+        <h1>Creative Technologist</h1>
+        <p>Amet minim mollit deserunt ullamco est sit aliqua dolor do amet</p>
+        <p>sint. Velit officia consequat duis enim velit molit. Exercitation veniam</p>
+        <p>consequat sunt nostrud amet.</p>
+        <button>Download Resume</button>
+       </div>
+        <div>
+            <img id="img1" src="./human.svg">
+        </div>
+    </div> 
+     
+     
+       <div class="Step2">
+        <h5 style="color: black;">Recent posts</h5><small>View all</small>
+        <div class="Step2p1">
+         <div class="Step2p3">
+        <h3>Making a design system from</h3>
+        <h3>scratch</h3>
+        <h4>12 Feb 2020 &nbsp;&nbsp;|&nbsp;&nbsp; Design,Pattern</h4>
+        <h6>Amet minim molit non deserunt ullamco est sit <br>
+          aliqua dolor do amet sint. Velit officia consequat <br>
+        duis enim velit mollit Exceritation veniam <br>
+        consequat sunt nostrud amet.</h6>
+    </div>
+</div>
+       
+    <div class="Step2p1">
+        <div class="Step2p3">
+        <h3>Create pixel perfect icon in</h3>
+        <h3>Figma</h3>
+        <h4>12 Feb 2020 &nbsp;&nbsp;|&nbsp;&nbsp; Figma,icon Design</h4>
+        <h6>Amet minim molit non deserunt ullamco est sit <br>
+            aliqua dolor do amet sint. Velit officia consequat <br>
+          duis enim velit mollit Exceritation veniam <br>
+          consequat sunt nostrud amet.</h6>
+       </div>
+    </div>
+</div>
+       <h2>Featured works</h2>
+
+       <div class="Step3">
+        <div class="Step3p1">
+          <img class="img2" src="./human.svg">
+          <div class="Step3p2">
+          <h3>Designing Dashboards</b></h3>
+          <div class="Step3p3"><button id="button2"><b>2020</b></button><h5>&nbsp;&nbsp;Dashboard</h5></div>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Vel<br>
+          officia consequat duis enim velit mollit. Exercitation veniam consequat sunt<br>
+          nostrud amet.</p>
+        </div> 
+      </div>  
+      </div>
+<hr>
+      <div class="Step3">
+        <div class="Step3p1">
+          <img class="img2" src="./human.svg">
+          <div class="Step3p2">
+          <h3>Vibrant Portraits of 2020</h3>
+          <div class="Step3p3"><button id="button2"><b>2018</b></button><h5>&nbsp;&nbsp;lllustration</h5></div>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br>
+          officia consequat duis enim velit mollit. Exercitation veniam<br> consequat sunt
+          nostrud amet.</p>
+        </div> 
+      </div>  
+      </div>
+<hr>
+      <div class="Step3">
+        <div class="Step3p1">
+          <img class="img2" src="./human.svg">
+          <div class="Step3p2">
+          <h3>36 Days of Malayalam type</h3>
+          <div class="Step3p3"><button id="button2"><b>2018</b></button><h5>&nbsp;&nbsp;Typography</h5></div>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br>sint. Vel
+          officia consequat duis enim velit mollit. Exercitation veniam<br> consequat sunt
+          nostrud amet.</p>
+        </div> 
+      </div>  
+      </div>
+    </main>
+
+    <footer>
+        <div class="f1">
+                <i class="fa-brands fa-square-facebook"></i> 
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="f2">
+            <p>Copyright @2020 All rights reserved</p>
+        </div>   
+    </footer>
+</body>
+</html>
